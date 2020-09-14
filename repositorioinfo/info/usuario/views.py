@@ -27,3 +27,7 @@ def nuevo(request):
 		nuevo_usuario.save()
 
 	return render(request, 'nuevo.html')
+
+    def alta(request):
+
+        return render()
